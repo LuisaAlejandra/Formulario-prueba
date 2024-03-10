@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+.rojo{
+    border: 10px solid red; /*Para poner un borde a algo*/
+    /*background-color: red;*/
+}
+.rosa{
+    background-color: pink;
+}
+.amarillo{
+    background-color: yellow;
+}
+.azul{
+    background-color: blue;
+}
