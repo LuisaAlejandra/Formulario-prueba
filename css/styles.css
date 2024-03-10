@@ -37,7 +37,7 @@ body{
     border: none;
     letter-spacing: 5px;
     text-transform: uppercase;
-    cursor: pointer;
+    cursor: pointer; /*Para que cambie el cursor cuando se coloque por encima del boton*/
     padding: 15px;
     margin-top: 30px;
 }
