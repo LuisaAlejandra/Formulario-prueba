@@ -47,3 +47,6 @@ body{
     background-image: url(/fondo.png); /*Agregar una imagen al fondo*/
     background-attachment: fixed; /*Para que la imagen del fondo no se mueva junto con el scrool*/
 }
+p{
+    text-indent: 30px; /*espaciado antes de cada párrafo*/
+}
