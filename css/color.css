@@ -1,16 +1,49 @@
 h1{
     text-align: center;
+    color: #e63946;
+    background-color: #f567f1;
 }
 .rojo{
     border: 10px solid red; /*Para poner un borde a algo*/
     /*background-color: red;*/
+    padding: 10px;
 }
 .rosa{
-    background-color: pink;
+    border: 10px dashed pink; /*dashed, para linea punteada*/
+    padding: 10px;
 }
 .amarillo{
-    background-color: yellow;
+    padding: 10px;
+    border: 10px double yellow;
 }
 .azul{
-    background-color: blue;
+    border: 10px dotted blue;
+    padding: 10px;
+}
+.borde{
+    border-style: groove;
+    padding: 10px;
+}
+.caja{
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+    margin: 5px auto;
+    float: left;
+}
+.verde{
+    background-color: green;
+}
+.golden{
+    background-color: goldenrod;
+}
+/*FONDO*/
+body{
+    background-color: dodgerblue;
+    color: rgb(0, 0, 0);
+    background-image: url(/fondo.png); /*Agregar una imagen al fondo*/
+    background-attachment: fixed; /*Para que la imagen del fondo no se mueva junto con el scrool*/
 }
