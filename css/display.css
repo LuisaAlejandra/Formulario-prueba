@@ -5,7 +5,19 @@ h1, div, p{
     padding: 10px;
     display: block;
 }
+h1{
+    display: none;
+}
+p{
+    visibility: hidden;
+}
 span{
     text-align: center;
     display: block;
+}
+a{
+    display: block;
+}
+li{
+    display: inline;
 }
